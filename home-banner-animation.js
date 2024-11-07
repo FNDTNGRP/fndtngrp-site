@@ -131,7 +131,7 @@ function homeBannerAnim(isDekstop, loco_scroll, page_container) {
                 if (isDekstop) {
                     loco_scroll.start();
                 }else{
-                    document.querySelector('body').classList.remove('overflow-hidden');
+                    document.querySelector('html').classList.remove('overflow-hidden');
                 }
                 bannerScrollAnim()
             });
@@ -169,7 +169,7 @@ function innerBannerAnim(isDekstop, loco_scroll, page_container) {
                 if (isDekstop) {
                     loco_scroll.start();
                 }else{
-                    document.querySelector('body').classList.remove('overflow-hidden');
+                    document.querySelector('html').classList.remove('overflow-hidden');
                 }
             });
 
